@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main_cotainer">
+        <div>
+            <h1 class="creater_name">LOKESH WEATHER REPORT</h1>
+        </div>
+        <div class="card">
+            <div>
+                <input type="search" class="input_btn" id="userInput" placeholder="ENTER A CITY NAME" value="Nandyal"/>
+            </div>
+            <div class="weather_image">
+                <img class="weather_img" src="rainy-day.png">
+            </div>
+            <div class="weather_report">
+                <h1 id="temparature" class="temp">22°C</h1>
+                <h1 id="city_name" class="city">Nandyal</h1>
+                <h1 id="weather_condition">Rainy</h1>
+            </div>
+            <div class="codition_contain">
+                <div class="items">
+                    <img class="codition_img" src="humidity1.png">
+                    <p class="para" id="humidity">Humidity</p>
+                </div>
+                <div class="items">
+                    <img class="codition_img" src="wind_speed.png">
+                    <p class="wind_speed" id="wind">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
